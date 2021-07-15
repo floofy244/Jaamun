@@ -427,6 +427,7 @@ footer{
   padding: 15px 0;
   text-align: center;
   font-family: 'Poppins', sans-serif;
+  width: 100%;
 }
 footer .text span{
   font-size: 17px;
