@@ -110,7 +110,7 @@ nav .menu-btn,
 nav .menu-btn{
   color: white;
 }
-nav.sticky .menu-btn{
+nav.sticky .menu-btn{   
   color: #FFF;
 }
 .navbar .menu .menu-btn{
@@ -190,16 +190,16 @@ nav.sticky .menu-btn{
   border-radius: 6px;
   font-size: 25px;
   font-weight: 400;
-  background:#FF69B4;
+  background: #430050;
   color: #fff;
   cursor: pointer;
   border: 2px solid transparent;
   transition: all 0.4s ease;
 }
 .home .button button:hover{
-  border-color: #FF69B4;
+  border-color: #430050;
   background-color: #fff;
-  color: #FF69B4;
+  color: #430050;
 }
 
 
