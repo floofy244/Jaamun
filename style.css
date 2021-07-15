@@ -117,7 +117,7 @@ nav.sticky .menu-btn{
   color: #fff;
 }
 
-/* home section styling */
+
 .home{
   height: 100vh;
   width: 100%;
@@ -202,9 +202,7 @@ nav.sticky .menu-btn{
   color: #FF69B4;
 }
 
-/* About Section Styling */
-/* Those Elements Where We Have Apply Same CSS,
- I'm Selecting Directly 'Section Tag' and 'Class'  */
+
 section{
   padding-top: 40px;
   
@@ -270,7 +268,7 @@ section .title span::after{
 transform: scale(110%);
 transition: all 0.3s ease-in-out;
 }
- /* My Skills CSS */
+ 
  .prodpics{
   padding: 30px;
   margin:auto;
@@ -301,7 +299,7 @@ transform: scale(105%);
 transition: all 0.3s ease-in-out;
 }
 
-/* My Services CSS */
+
 .container1 {
   height: 100%;
   width: 98%;
@@ -453,6 +451,7 @@ footer .text span a:hover{
   border-radius: 6px;
   box-shadow: rgba(0, 0, 0, 0.15);
   display: none;
+  z-index: 998;
 }
 
 /* Responsive Media Query */
