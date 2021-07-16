@@ -432,6 +432,12 @@ footer .text span{
   font-weight: 400;
   color: #fff;
 }
+footer .text .media-icons a{
+  font-size: 17px;
+  font-weight: 400;
+  color: #fff;
+  
+}
 footer .text span a{
   font-weight: 500;
   color: #FFF;
