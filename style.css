@@ -8,12 +8,19 @@
   font-style: normal;
   font-weight: normal;
 }
+html{
+  height: 100%;
+  margin: auto;
+  width: 100%;
+  overflow: scroll;
+}
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  scroll-behavior: smooth;
+  
+  
 }
 body{
   background-color: black;
@@ -205,6 +212,7 @@ nav.sticky .menu-btn{
 
 section{
   padding-top: 40px;
+  overflow-y: scroll;
   
 }
 section .content{
