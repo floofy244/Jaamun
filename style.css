@@ -427,6 +427,13 @@ transition: all 0.3s ease-in-out;
   justify-content: space-evenly;
 }
 
+.icons a{
+  color: white;
+}
+.icons .fab a:visited  {
+  color: white;
+}
+
 
 
 
