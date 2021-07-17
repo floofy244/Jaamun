@@ -19,6 +19,7 @@ html{
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  scroll-behavior: smooth;
   
   
 }
@@ -100,7 +101,9 @@ nav.sticky .menu a:hover{
 }
 nav.sticky .media-icons a{
   color: #FFF;
+  
 }
+
 
 /* Side Navigation Menu Button CSS */
 nav .menu-btn,
@@ -318,7 +321,7 @@ transition: all 0.3s ease-in-out;
   margin: 0 auto;
 }
 .border {
-  height: 369px;
+  height: 379px;
   width: 290px;
   background: transparent;
   border-radius: 10px;
@@ -349,12 +352,12 @@ transition: all 0.3s ease-in-out;
 }
 .card0:hover {
   background: url("images/Aviral.jpg") left center no-repeat;
-  background-size: 600px;
+  background-size: 400px;
 }
 .card0:hover .ab {
   opacity: 1;
 }
-.card0:hover .fa {
+.card0:hover .fab {
   opacity: 1;
 }
 .card1 {
@@ -363,12 +366,12 @@ transition: all 0.3s ease-in-out;
 }
 .card1:hover {
   background: url("images/ayan.jpg") left center no-repeat;
-  background-size: 600px;
+  background-size: 400px;
 }
 .card1:hover .ab{
   opacity: 1;
 }
-.card1:hover .fa {
+.card1:hover .fab {
   opacity: 1;
 }
 .card2 {
@@ -377,12 +380,12 @@ transition: all 0.3s ease-in-out;
 }
 .card2:hover {
   background: url("images/aditi.jpg") left center no-repeat;
-  background-size: 600px;
+  background-size: 400px;
 }
 .card2:hover .ab {
   opacity: 1;
 }
-.card2:hover .fa {
+.card2:hover .fab{
   opacity: 1;
 }
 .card3 {
@@ -391,12 +394,12 @@ transition: all 0.3s ease-in-out;
 }
 .card3:hover {
   background: url("images/rishabh.jpg") left center no-repeat;
-  background-size: 600px;
+  background-size: 400px;
 }
 .card3:hover .ab {
   opacity: 1;
 }
-.card3:hover .fa {
+.card3:hover .fab {
   opacity: 1;
 }
 .ab {
@@ -406,7 +409,7 @@ transition: all 0.3s ease-in-out;
   opacity: 0;
   transition: opacity 1s;
 }
-.fa {
+.services .fab {
   opacity: 0;
   transition: opacity 1s;
 }
@@ -417,10 +420,11 @@ transition: all 0.3s ease-in-out;
   height: 130px;
   top: 226px;
   width: 50px;
+  font-size: larger;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 
@@ -434,6 +438,8 @@ footer{
   text-align: center;
   font-family: 'Poppins', sans-serif;
   width: 100%;
+  
+  
 }
 footer .text span{
   font-size: 17px;
@@ -444,11 +450,13 @@ footer .text .media-icons a{
   font-size: 17px;
   font-weight: 400;
   color: #fff;
+  margin: 0 6px;
   
 }
 footer .text span a{
   font-weight: 500;
   color: #FFF;
+  
 }
 footer .text span a:hover{
   text-decoration: underline;
