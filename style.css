@@ -49,7 +49,7 @@ nav{
   padding: 20px 0;
   z-index: 998;
   transition: all 0.3s ease;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "poppins";
 }
 nav.sticky{
   background: black;
