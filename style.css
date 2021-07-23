@@ -145,6 +145,7 @@ nav.sticky .menu-btn{
   flex-direction: column;
   justify-content: center;
 }
+
 .home .text-one{
   font-size: 25px;
   color: white;
@@ -211,6 +212,7 @@ nav.sticky .menu-btn{
   background-color: #fff;
   color: #430050;
 }
+
 
 
 section{
@@ -501,7 +503,11 @@ footer .text span a:hover{
   box-shadow: rgba(0, 0, 0, 0.15);
   display: none;
   z-index: 998;
+
 }
+
+
+
 
 /* Responsive Media Query */
 @media (max-width: 1190px) {
